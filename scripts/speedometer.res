@@ -8,7 +8,7 @@
 		"fieldName"			"speedometer"
 		"zpos"				"-100"
 		"xpos"				"cs-0.5"
-		"ypos"				"c30"
+		"ypos"				"c+190"
 		"wide"				"50"
 		"tall"				"12"
 		"image"				"replay/thumbnails/numbers"
