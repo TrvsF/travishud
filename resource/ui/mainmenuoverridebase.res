@@ -11,8 +11,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 
-//		"bgcolor_override"	"0 0 0 240"
-
 		"update_url"	"http://store.steampowered.com/news/?filter=updates&appids=440"
 		"blog_url"		"http://www.teamfortress.com/"
 
@@ -497,134 +495,12 @@
 		}
 	}
 
-	"ConsoleButton"
+	"ServerButtonToggleTab"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"ConsoleButton"
+		"fieldname"		"ServerButtonToggleTab"
 		"xpos"			"c-300"
 		"ypos"			"r206"
-		"zpos"			"15"
-		"wide"			"250"
-		"tall"			"15"
-		"visible"		"1"
-		"PaintBackgroundType"	"2"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"250"
-			"tall"			"15"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"font"			"Garm3nFontMenu"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"paintbackground"	"0"
-			"paintborder"		"0"
-
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "225 90 20 255"
-			"depressedFgColor_override" "225 90 20 255"
-
-			"image_drawcolor"	"225 90 20 255"
-			"image_armedcolor"	"255 255 255 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"10"
-				"ypos"			"2"
-				"zpos"			"1"
-				"wide"			"11"
-				"tall"			"11"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}
-		}
-	}
-
-	"ServerButton6vs6"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"ServerButton6vs6"
-		"xpos"			"c-300"
-		"ypos"			"r190"
-		"zpos"			"15"
-		"wide"			"250"
-		"tall"			"15"
-		"visible"		"1"
-		"PaintBackgroundType"	"2"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"250"
-			"tall"			"15"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"font"			"Garm3nFontMenu"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"paintbackground"	"0"
-			"paintborder"		"0"
-
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "225 90 20 255"
-			"depressedFgColor_override" "225 90 20 255"
-
-			"image_drawcolor"	"225 90 20 255"
-			"image_armedcolor"	"255 255 255 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"10"
-				"ypos"			"2"
-				"zpos"			"1"
-				"wide"			"11"
-				"tall"			"11"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}
-		}
-	}
-
-	"ServerButton12vs12"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"ServerButton12vs12"
-		"xpos"			"c-300"
-		"ypos"			"r174"
 		"zpos"			"15"
 		"wide"			"250"
 		"tall"			"15"

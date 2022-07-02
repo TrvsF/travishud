@@ -2,50 +2,38 @@
 {
 	"ServerBrowserButton"
 	{
-		"label"			"Browse Servers"
+		"label"			"servers"
 		"command"		"OpenServerBrowser"
 		"subimage" 		"glyph_server_browser"
 	}
 	"CharacterSetupButton"
 	{
-		"label" 		"Items"
+		"label" 		"backpack"
 		"command" 		"engine open_charinfo"
 		"subimage" 		"glyph_items"
 	}
 	"GeneralStoreButton"
 	{
-		"label" 		"Shop"
+		"label" 		"shop"
 		"command" 		"engine open_store"
 		"subimage" 		"glyph_store"
 	}	
 	"SettingsButton"
 	{
-		"label" 		"Options"
+		"label" 		"options"
 		"command" 		"OpenOptionsDialog"
 		"subimage" 		"glyph_options"
 	}
 	"TF2SettingsButton"
 	{
-		"label" 		"Advanced Options"
+		"label" 		"adv options"
 		"command" 		"opentf2options"
 		"subimage" 		"glyph_options"
 	}
-	"ConsoleButton"
+	"ServerButtonToggleTab"
 	{
-		"label" 		"Toggle Console"
-		"command" 		"engine con_enable 1;toggleconsole"
-		"subimage" 		"glyph_forums"
-	}
-	"ServerButton6vs6"
-	{
-		"label" 		"Scoreboard 6 vs 6"
-		"command" 		"engine cl_hud_minmode 1"
-		"subimage" 		"glyph_practice"
-	}
-	"ServerButton12vs12"
-	{
-		"label" 		"Scoreboard 12 vs 12"
-		"command" 		"engine cl_hud_minmode 0"
+		"label" 		"toggle tab"
+		"command" 		"engine toggle cl_hud_minmode 1 0"
 		"subimage" 		"glyph_practice"
 	}
 	"ReloadHudButton"
@@ -56,56 +44,48 @@
 	}
 	"QuitButton"
 	{
-		"label" 		"Quit"
+		"label" 		"quit"
 		"command" 		"engine replay_confirmquit"
 		"subimage" 		"glyph_quit"
 		"OnlyAtMenu" 	"1"
 	}
 	"DisconnectButton"
 	{
-		"label" 		"Disconnect"
+		"label" 		"disconnect"
 		"command" 		"engine disconnect"
 		"subimage" 		"glyph_quit"
 		"OnlyInGame"	"1"
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
 	"CreateServerButton"
 	{
-		"label" "#GameUI_GameMenu_CreateServer"
-		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
-		"tooltip" "#GameUI_GameMenu_CreateServer"
+		"label" 		"#GameUI_GameMenu_CreateServer"
+		"command" 		"OpenCreateMultiplayerGameDialog"
+		"OnlyAtMenu" 	"1"
+		"tooltip" 		"#GameUI_GameMenu_CreateServer"
 	}
 	"CallVoteButton"
 	{
 		"label"			""
 		"command"		"callvote"
 		"OnlyInGame"	"1"
-		"subimage" "icon_checkbox"
-		"tooltip" "#MMenu_CallVote"
+		"subimage" 		"icon_checkbox"
+		"tooltip" 		"#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
 		"label"			""
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
-		"subimage" "glyph_muted"
-		"tooltip" "#MMenu_MutePlayers"
+		"subimage" 		"glyph_muted"
+		"tooltip" 		"#MMenu_MutePlayers"
 	}
 	"RequestCoachButton"
 	{
 		"label"			""
 		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
-		"subimage" "icon_whistle"
-		"tooltip" "#MMenu_RequestCoach"
+		"subimage" 		"icon_whistle"
+		"tooltip" 		"#MMenu_RequestCoach"
 	}
 }
